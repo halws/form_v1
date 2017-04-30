@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" id="form" onsubmit="return false">
+        <div id="contact">
+            <h2>Związek ze mną</h2>
+            <p>Chesz napisac do mnie? Wystarcze tylko wypelnicz formularz i wyslac na <span>Kotsuyba@gmail.com</span></p>
+            <div id="imie">
+	            <span id="info">Wpisz swoje imie</span>
+	            <span id="step">Krok 1/3</span><br>
+	             Imie:<input type="text" id="name">
+            </div>
+           <div id="mail">
+    			<span id="info">Wpisz swoj @mail</span>
+    			<span id="step">Krok 2/3</span> 
+   				 @mail:<input type="text" id="mail">
+			</div>
+			<div id="message">
+				<span id="info">Wpisz swoje zawadomienie</span>
+			    <span id="step">Krok 3/3</span>
+			     Zawiadomienie:<input type="text" id="name">
+			</div>
+
+            <button onclick="processPhase()">Dalej</button>
+            <button onclick="sendMessage()">Wyslij zawiadomienie</button>
+        </div>
+    </form>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
