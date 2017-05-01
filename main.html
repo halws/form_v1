@@ -15,24 +15,28 @@
             <div id="imie">
 	            <span id="info">Wpisz swoje imie</span>
 	            <span id="step">Krok 1/3</span><br>
-	             Imie:<input type="text" id="name">
+	             Imie:<input type="text" id="nameInp">
             </div>
            <div id="mail">
     			<span id="info">Wpisz swoj @mail</span>
-    			<span id="step">Krok 2/3</span> 
-   				 @mail:<input type="text" id="mail">
+    			<span id="step">Krok 2/3</span> <br>
+   				 @mail:<input type="text" id="mailInp">
 			</div>
 			<div id="message">
-				<span id="info">Wpisz swoje zawadomienie</span>
-			    <span id="step">Krok 3/3</span>
-			     Zawiadomienie:<input type="text" id="name">
+                <span id="info">Wpisz swoje zawadomienie</span>
+                <span id="step">Krok 3/3</span><br>
+                 Zawiadomienie:<input type="text" id="messageInp">
+            </div><div id="submit">
+				<span id="info">To juz prawie koniec</span>
+			    <span id="step">Podwierz i wyslij</span><br>
+			    
 			</div>
 
-            <button onclick="processPhase()">Dalej</button>
+            <button onclick="process()">Dalej</button>
             <button onclick="sendMessage()">Wyslij zawiadomienie</button>
         </div>
     </form>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 
